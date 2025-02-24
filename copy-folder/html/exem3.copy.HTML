@@ -1,52 +1,172 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>EXAM 3</title>
 </head>
+
 <body>
-    
-
-
 
     <div class="block">
         <img src="/img/1.jpg" alt="" width="200" height="100">
         <img src="/img/1.jpg" alt="" width="200" height="100">
         <img src="/img/1.jpg" alt="" width="200" height="100">
-        <h1 style="background: color #2d2dca;">
+        <h1 style="background-color:#2d2dca;">
             Create a new account
         </h1>
         <p>It’s quick and easy.</p>
         <hr>
-        <form action="https://www.instagram.com" ;>
+        <form action="https://www.instagram.com">
             <div>
-                <label for="FN"> First name</label>
-                <input type="FN" placeholder="First name" minlength="5" type="text" required>
+                <label for="FN">First name </label>
+                <input id="FN" placeholder="First name " minlength="5" type="text" required>
 
-                <label for="LN"> Last name </label>
-                <input type="LN" placeholder="Last name" type="text" minlength="5" required> 
-            </div> 
+                <label for="LN">Last name </label>
+                <input id="LN" placeholder="Last name " minlength="5" type="text" required>
+            </div>
 
             <br>
             <div>
-                <label for="number"> mobile number or email</label>
-                <input placeholder="mobile number or email" id="number" type="text">
+                <label for="number">Mobile number or email</label>
+                <input placeholder="Mobile number or email" id="number" type="text">
 
-                <label for="pass"> New password</label>
-                <input placeholder="password" id="pass" type="password">
+                <label for="password">new password</label>
+                <input id="pass" placeholder=" New Password" type="text">
             </div>
 
             <br>
             <div>
                 <label for="date">Birthday</label>
-                <input id="date" type="date" required>
+                <input type="date" id="date" required>
             </div>
             <hr>
             <br>
-            <div style="background-color: darkslategray; text-align: center;"></div>
-            <table>`</table>
+            <div style="background-color: darkslategray; text-align: center;">
+                <table width="100%">
+                    <tr>
+                        <th>
+                            <label>Gender</label>
+                            <fieldset style="background-color: darkred;">
+                                <button>
+                                    <label>
+                                        Female <input type="radio" name="gender">
+                                    </label>
+                                </button>
+                                <button>
+                                    <label>
+                                        male <input type="radio" name="gender">
+                                    </label>
+                                </button>
+                                <button>
+                                    <label>
+                                        other <input type="radio" name="gender" checked disabled>
+                                    </label>
+                                </button>
+                            </fieldset>
+                            <br>
+                        </th>
+                        <th>
+                            <label>Your favourite Web-Site</label>
+                            <fieldset style="background-color: blue;">
+                                <button>
+                                    <label>
+                                        instagram <input type="radio" name="site">
+                                    </label>
+                                </button>
+
+                                <button>
+                                    <label>
+                                        Facebook <input type="radio" name="site">
+                                    </label>
+                                </button>
+
+                                <button>
+                                    <label>
+                                        Twitter <input type="radio" name="site">
+                                    </label>
+                                </button>
+                            </fieldset>
+                            <br>
+                        </th>
+                        <th>
+                            <label>Your Education</label>
+                            <fieldset style="background-color: darkgreen;">
+                                <button>
+                                    <label>
+                                        Beginner<input type="radio" name="education">
+                                    </label>
+                                </button>
+
+                                <button>
+                                    <label>
+                                        Middle <input type="radio" name="education">
+                                    </label>
+                                </button>
+
+                                <button>
+                                    <label>
+                                        pro <input type="radio" name="education">
+                                    </label>
+                                </button>
+                            </fieldset>
+                            <br>
+                        </th>
+                        <th>
+                            <label>Your Hoobies</label>
+                            <fieldset style="background-color: gold;">
+                                <button>
+                                    <label>
+                                        movie<input type="radio" name="hobbies">
+                                    </label>
+                                </button>
+
+                                <button>
+                                    <label>
+                                        music <input type="radio" name="hobbies">
+                                    </label>
+                                </button>
+
+                                <button>
+                                    <label>
+                                        Sport <input type="radio" name="hobbies">
+                                    </label>
+                                </button>
+                            </fieldset>
+                            <br>
+                        </th>
+                    </tr>
+                </table>
+            </div>
+            <small>
+                People who use our service may have uploaded your contact information to Facebook.
+                <a href="#">Learn more.</a>
+                <br>\
+                By clicking Sign Up, you agree to our Terms, Privacy Policy and Lorem ipsum dolor sit, amet consectetur
+                adipisicing elit. Fugiat placeat, ipsum inventore repellat saepe, omnis sed, recusandae quam consequatur
+                delectus temporibus voluptates neque? Enim dignissimos soluta a eos deserunt veritatis?
+            </small>
+            <br>
+            
+            <marquee behavior="alternate" direction="right">
+                <button style="background-color: green; color:snow" submit>
+                    <h3>Sign up</h3>
+                </button>
+            </marquee>
+            <br>
+            <h1 style="background-color: dodgerblue; ">
+                <a style="color: snow;"  href="#">Already have an account?</a>
+            </h1>
         </form>
     </div>
 </body>
+<style>
+    .block {
+        text-align: center;
+        background-color: black;
+        color: snow;
+    }
+</style>
+
 </html>
