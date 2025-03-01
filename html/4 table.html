@@ -9,7 +9,7 @@
 
 <body>
 
-    <a href="1 introduction.html">introduction.html</a>
+    <!-- <a href="1 introduction.html">introduction.html</a>
     <br>
     <a href="2 img-link.html">img-link.html</a>
     <br>
@@ -18,26 +18,22 @@
     <a href="4 table.html">table.html</a>
     <br>
     <a href="5 list.html">list.html</a>
-    <br>
+    <br> -->
 
     
-    <table border="1px" bordercolor="red">
+    <table bordercolor="gray" border="10px">
         <tr>
+            <th colspan="2">text</th>
             <th>text</th>
             <th>text</th>
-            <th>text</th>
-            <th rowspan="2">text</th>
-            <th>text</th>
+            <th rowspan="4">text</th>
         </tr>
         <tr>
             <td>text</td>
-            <td>text</td>
-            <td>text</td>
-            <td>text</td>
-        </tr>
-        <tr>
             <td colspan="2" rowspan="2">text</td>
-            <td colspan="3">text</td>
+            <td>text</td>
+        </tr>
+        <tr>
             <td>text</td>
             <td>text</td>
         </tr>
@@ -53,9 +49,26 @@
 </body>
 <style>
 
+    html,body{
+        /* height: 100%; */
+    }
+
     table{
         width: 100%;
-        height: 400px;
+        height: 450px;
+        /* width: 97vw; */
+        /* height: 100%; */
+        /* height: 98vh; */
+
+    }
+
+    th,td{
+        text-align: left;
+        text-align: right;
+        text-align: center;
+        vertical-align: top;
+        vertical-align: bottom;
+        vertical-align: middle;
     }
 
 </style>

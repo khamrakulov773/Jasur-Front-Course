@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ex3-copy</title>
+</head>
+
+<body>
+
+    <marquee behavior="alternate" direction="">
+        Lorem, ipsum dolor. <a href="#">sit amet</a>
+    </marquee>
+
+    <main>
+        <h1>Css text-decoration</h1>
+        <p>
+            <em>
+                <small>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. At saepe harum facilis, nisi velit maiores.
+                    Neque numquam dolore ullam, ex cupiditate dolores exercitationem obcaecati provident possimus,
+                    incidunt qui earum esse!
+                </small>
+            </em>
+        </p>
+        <table>
+            <tr class="tr1">
+                <th>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus earum ab iusto temporibus,
+                    quaerat veniam molestias veritatis eveniet officia quisquam!
+                </th>
+                <th>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio impedit veritatis dolore eveniet
+                    pariatur, quasi ipsa asperiores cumque enim expedita!
+                </th>
+                <th>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe eius debitis ut odit praesentium illo
+                    voluptatem quos in! Veritatis, iusto?
+                </th>
+            </tr>
+            <tr class="tr2">
+                <th class="img-th" colspan="2">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias illum maxime fugiat ad tenetur
+                    aliquam nihil illo blanditiis fuga voluptatibus! Non culpa facilis, adipisci fuga sequi laudantium
+                    error provident praesentium?
+                </th>
+                <th><img src="/img/3.jpg" alt="" width="100%" height="150px"></th>
+            </tr>
+        </table>
+    </main>
+
+</body>
+    <style>
+        main{
+            text-align: center;
+            background:url(/img/2.jpg) center /cover no-repeat;
+            background-blend-mode:darken;
+            background-color:rgba(0,0,0,0.437);
+        }
+
+        marquee{
+            background-color:black;
+            color:snow;
+        }
+        marquee a {
+            color:red;
+        }
+        main h1{
+            color:dodgerblue;
+        }
+        main p{
+            background-color:black;
+            color:snow
+        }
+
+        .tr1{
+            color:snow;
+            text-decoration: underline dotted 3px red;
+        }
+        .tr2{
+            background:url(/img/5.jpg) center / cover no-repeat;
+            background-blend-mode:darken;
+            background-color:rgba(0,0,0,0.5);
+            color:snow;
+            text-decoration:underline 3px double slateblue;
+        }
+    </style>
+</html>
